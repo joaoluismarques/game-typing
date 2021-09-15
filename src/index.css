@@ -9,7 +9,7 @@
 body {
    width: 100;
    min-height: 100vh;
-   color: #FF8400;
+   color: darkgreen;
    background-color: #1e1e1e;
    display: flex;
    justify-content: center;
@@ -17,8 +17,8 @@ body {
    font-family: 'Dosis' sans-serif;
 }
 
-.container {
-    width: 100;
+.container {    
+    width: 100vw;
     height: 100vh;
     text-align: center;
     display: flex;
@@ -34,8 +34,8 @@ body {
     border-bottom: solid 2px ;
 }
 .container .valid-keys .matched {
-    background-color: #f5f5dc;
-    color: #a9a9a9;
+    background-color: blue;
+    color: hotpink;
 }
 .container .valid-keys .remainder {
     opacity: 0.5;
